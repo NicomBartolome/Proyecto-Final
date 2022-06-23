@@ -44,15 +44,7 @@ body .cuerpoWeb {
       grid-template-rows: auto auto;
 }
 
-body .cuerpoWeb .imgcent-internet {
-  width: 100%;
-}
-
-body .cuerpoWeb .imgcent-internetytv {
-  width: 100%;
-}
-
-body .cuerpoWeb .imgcent-solucionamed {
+body .cuerpoWeb .wdtIndex {
   width: 100%;
 }
 

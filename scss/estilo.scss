@@ -12,6 +12,12 @@ $imagenescentrales:(
     solucionamed: 100%
 );
 
+$imagenescentrales_rpon:(
+    internet: 300px,
+    internetytv: 300px,
+    solucionamed: 300px
+);
+
 $display-grid:(
     display: grid
 );
@@ -35,11 +41,9 @@ body{
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-        @each $imgcentral,$anchoimg in $imagenescentrales {
-            .imgcent-#{$imgcentral}{
-                width: $anchoimg;
-            }
-        }
+    .wdtIndex{
+        width: 100%;
+    }
     }
 
     footer{
