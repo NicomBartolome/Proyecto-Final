@@ -12,6 +12,10 @@
           transform: rotateY(360deg);
 }
 
+.BTNHover:hover {
+  color: lightgray;
+}
+
 body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(lightgrey));
   background-image: linear-gradient(white, lightgrey);
@@ -60,6 +64,40 @@ body .cuerpoWebE {
 
 body .cuerpoWebE .wdt {
   width: 50%;
+}
+
+body .cuerpoWebF {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+}
+
+body .cuerpoWebF .wdt {
+  width: 50%;
+}
+
+body .cuerpoWebF .Formulario {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto auto auto auto auto;
+      grid-template-rows: auto auto auto auto auto auto;
+  width: 550px;
+}
+
+body .cuerpoWebF .Formulario .LineaForm {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  width: 100%;
 }
 
 body footer {
@@ -162,7 +200,7 @@ body footer .RedesSociales img {
   }
   body .cuerpoWeb .wdtIndex {
     width: 300px;
-    height: 300px;
+    height: auto;
   }
   body .cuerpoWebE {
     display: -ms-grid;
@@ -175,7 +213,17 @@ body footer .RedesSociales img {
   }
   body .cuerpoWebE .wdt {
     width: 300px;
-    height: 300px;
+    height: auto;
+  }
+  body .cuerpoWebF .wdt {
+    width: 300px;
+    height: auto;
+  }
+  body .cuerpoWebF .Formulario {
+    width: 300px;
+  }
+  body .cuerpoWebF .Formulario .LineaForm {
+    width: 100%;
   }
   body footer {
     display: -ms-grid;

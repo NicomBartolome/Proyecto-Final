@@ -15,6 +15,7 @@
                         margin: 20px;
                     }
             }
+
             .RPON{
                 font-size: 10px;
             }
@@ -26,7 +27,7 @@
                 grid-template-rows: auto;
                 .wdtIndex{
                     width: 300px;
-                    height: 300px;
+                    height: auto;
                 }
             }
 
@@ -37,9 +38,24 @@
                 grid-template-rows: auto;
                 .wdt{
                     width: 300px;
-                    height: 300px;
+                    height: auto;
                 }
             }
+
+            .cuerpoWebF{
+                .wdt{
+                    width: 300px;
+                    height: auto;
+                }
+                .Formulario{
+                    width: 300px;
+                    .LineaForm{
+                        width: 100%;
+                    }
+                }
+            }
+
+
         
     
     footer{

@@ -48,6 +48,28 @@ body{
         }        
     }
 
+    .cuerpoWebF{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        .wdt{
+            width: 50%;
+        }
+        .Formulario{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto auto auto;
+            width: 550px;
+            .LineaForm{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: auto;
+                width: 100%
+            }
+        }
+    }
+
     @import "footer";
 }
 
