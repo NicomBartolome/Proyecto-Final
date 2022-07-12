@@ -220,10 +220,10 @@ body footer .RedesSociales img {
     height: auto;
   }
   body .cuerpoWebF .Formulario {
-    width: 300px;
+    width: auto;
   }
   body .cuerpoWebF .Formulario .LineaForm {
-    width: 100%;
+    width: auto;
   }
   body footer {
     display: -ms-grid;
